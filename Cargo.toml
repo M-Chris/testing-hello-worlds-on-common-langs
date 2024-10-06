@@ -1,0 +1,9 @@
+[package]
+name = "bench_test"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+actix-web = "4"  # Actix-Web for the web framework
+serde = { version = "1.0", features = ["derive"] }  # Serde for JSON (with derive feature)
+serde_json = "1.0"  # Serde JSON for JSON serialization/deserialization
